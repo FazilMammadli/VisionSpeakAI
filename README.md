@@ -70,3 +70,51 @@ AI-powered tool that **analyzes an image** and **converts it into a narrated sho
 ```sh
 git clone https://github.com/FazilMammadli/VisionSpeakAI.git
 cd VisionSpeakAI
+
+
+# 2️⃣ Install Dependencies
+```sh
+pip install -r requirements.txt
+
+# 3️⃣ Set Up API Keys
+```sh
+# Create a .env file in the root directory with the following:
+echo "OPENAI_API_KEY=your-api-key" >> .env
+echo "HUGGINGFACE_API_TOKEN=your-huggingface-token" >> .env
+
+# 4️⃣ Run the App
+```sh
+streamlit run app.py
+
+
+## 🚀 Usage Guide
+- Upload an image → AI will analyze the image.  
+- Wait for processing (few seconds).  
+- Generated Story Appears (text output).  
+- Click "Play" → Listen to AI-narrated story.  
+
+## 📊 Future Enhancements
+🔹 Live Camera Integration for real-time image processing.  
+🔹 More AI Models for better speech quality.  
+🔹 Language Expansion (more languages & accents).  
+🔹 Custom Voice Selection for AI narration.  
+
+## 📜 License
+🔹 Distributed under **MIT License**.  
+🔹 See [`LICENSE`](LICENSE) for details.  
+
+## ⭐ Support & Contributions
+💡 If you like this **AI-powered Image-to-Speech Tool**, **drop a ⭐ on GitHub!**  
+🚀 Contributions are welcome—submit a **pull request!**  
+
+---
+
+### ✅ **How to Use This**
+1. **Copy & Paste** the entire **code block** into your `README.md`.
+2. **Replace your existing README** with this **new one**.
+3. **Commit & Push the Changes**:
+   ```sh
+   git add README.md
+   git commit -m "Updated README for VisionSpeakAI"
+   git push origin main
+
