@@ -65,21 +65,27 @@ AI-powered tool that **analyzes an image** and **converts it into a narrated sho
 
 ## 🛠 **Installation & Setup**  
 
-```sh
+
 # 1️⃣ Clone the Repository  
+```sh
 git clone https://github.com/FazilMammadli/VisionSpeakAI.git
 cd VisionSpeakAI
 
-# 2️⃣ Install Dependencies  
+# 2️⃣ Install Dependencies
+```sh
 pip install -r requirements.txt
 
-# 3️⃣ Set Up API Keys  
+# 3️⃣ Set Up API Keys
+```sh
 # Create a .env file in the root directory with the following:
 echo "OPENAI_API_KEY=your-api-key" >> .env
 echo "HUGGINGFACE_API_TOKEN=your-huggingface-token" >> .env
 
-# 4️⃣ Run the App  
+# 4️⃣ Run the App
+```sh
 streamlit run app.py
+
+
 ## 🚀 Usage Guide
 - Upload an image → AI will analyze the image.  
 - Wait for processing (few seconds).  
