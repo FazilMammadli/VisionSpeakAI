@@ -22,7 +22,7 @@ AI-powered tool that **analyzes an image** and **converts it into a narrated sho
 ![System Overview](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*DzN_iN8hDKK3pTtjElF_Qw.png)  
 
 📌 **Example Output:**  
-![Family Test Image](img-audio/FamilyOutput.jpg)  
+![Family Test Image](img-audio/VisionSpeakAI.jpg)  
 
 🎧 **Listen to the AI-generated narration** in the `img-audio` folder.
 
@@ -47,7 +47,7 @@ AI-powered tool that **analyzes an image** and **converts it into a narrated sho
 ✅ **Web-based UI with Streamlit**  
 
 📌 Example:  
-![Picnic Test Image](img-audio/PicnicOutput.jpg)  
+![Picnic Test Image](img-audio/PicnicOutput_.jpg)  
 
 🎧 **Listen to the narrated story in `img-audio` folder.**
 
